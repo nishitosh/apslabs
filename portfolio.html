@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio - APS LABS</title>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width">
+<!-- google fonts -->
+<link rel="stylesheet" type="text/css" href="css/googleapifonts.css">
+<!-- start stylesheets -->
+<link rel="stylesheet" type="text/css" href="src/fontawesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/core.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" type="text/css" href="src/tooltipster/tooltipster.css">
+<link rel="stylesheet" type="text/css" href="src/swipebox/swipebox.css">
+<link rel="stylesheet" type="text/css" href="src/rs-plugin/css/settings.css">
+<link rel="shortcut icon" href="img/favicon.ico">
+<!-- end stylesheets -->
+<!-- start scripts -->
+<script type="text/javascript" src="src/modernizr/modernizr.custom.js"></script>
+<script type="text/javascript" src="src/jquery/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="src/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="src/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!-- end scripts -->
+</head>
+<body>
+<!-- #region Jssor Slider Begin -->
+<!-- Generator: Jssor Slider Maker -->
+<!-- Source: https://www.jssor.com -->
+<script src="js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $SpacingX: 5,
+                $SpacingY: 5
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+<style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider arrow skin 106 css*/
+        .jssora106 {display:block;position:absolute;cursor:pointer;}
+        .jssora106 .c {fill:#fff;opacity:.3;}
+        .jssora106 .a {fill:none;stroke:#000;stroke-width:350;stroke-miterlimit:10;}
+        .jssora106:hover .c {opacity:.5;}
+        .jssora106:hover .a {opacity:.8;}
+        .jssora106.jssora106dn .c {opacity:.2;}
+        .jssora106.jssora106dn .a {opacity:1;}
+        .jssora106.jssora106ds {opacity:.3;pointer-events:none;}
+
+        /*jssor slider thumbnail skin 101 css*/
+        .jssort101 .p {position: absolute;top:0;left:0;box-sizing:border-box;background:#000;}
+        .jssort101 .p .cv {position:relative;top:0;left:0;width:100%;height:100%;border:2px solid #000;box-sizing:border-box;z-index:1;}
+        .jssort101 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;visibility:hidden;}
+        .jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {border:none;border-color:transparent;}
+        .jssort101 .p:hover{padding:2px;}
+        .jssort101 .p:hover .cv {background-color:rgba(0,0,0,6);opacity:.35;}
+        .jssort101 .p:hover.pdn{padding:0;}
+        .jssort101 .p:hover.pdn .cv {border:2px solid #fff;background:none;opacity:.35;}
+        .jssort101 .pav .cv {border-color:#fff;opacity:.35;}
+        .jssort101 .pav .a, .jssort101 .p:hover .a {visibility:visible;}
+        .jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
+        .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
+    </style>
+<!-- start header -->
+<header id="site-header" class="header section light">
+  <!-- start container -->
+  <div class="container">
+    <!-- start row -->
+    <div class="row">
+      <!-- start logo -->
+      <div id="logo" class="col-29">
+        <h1 class="site-title"><a href="index.html"><img src="img/logo-dark.png" alt="APS LABS"></a></h1>
+      </div>
+      <!-- end logo -->
+      <!-- start header widgets -->
+      <div id="header-widgets" class="col-7">
+        <!-- start social icons -->
+        <nav id="header-social" class="text-right"> <a href="https://www.facebook.com/apslabs/" target="_blank" class="icon circle tooltip" title="Find us on Facebook"><i class="fa fa-facebook"></i></a> <a href="https://www.linkedin.com/company/aps-lifetech/" target="_blank" class="icon circle tooltip" title="Linkedin"><i class="fa fa-linkedin"></i></a> </nav>
+        <!-- end social icons -->
+        <!-- start site nav -->
+        <nav id="site-nav" class="nav horizontal text-right">
+          <ul class="dropdown">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a>Products</a>
+              <ul>
+                <li class="dropdown"><a href="product.html">&raquo; Molecular Biology</a>
+                  <ul>
+                    <li><a href="#">&raquo; Bacterial Culture</a></li>
+                    <li><a href="#"> &raquo; GEL & PCR Clean Up</a></li>
+                    <li><a href="#">&raquo; Tissue &amp; Blood Kits</a></li>
+                    <li><a href="#">&raquo; RNA Purification Kits</a></li>
+                    <li><a href="#">&raquo; Food DNA Kits</a></li>
+                    <li><a href="#">&raquo; Viral Nucleic Acid</a></li>
+                    <li><a href="#">&raquo; Plants Research Kits</a></li>
+                    <li><a href="#">&raquo; DNA Related Prducts</a></li>
+                    <li><a href="#">&raquo; Protien Products</a></li>
+                    <li><a href="#">&raquo; PCR/RT-PCR Products</a></li>
+                    <li><a href="#">&raquo; PCR Cloning & Ligation</a></li>
+                    <li><a href="#">&raquo; Transilluminator</a></li>
+                    <li><a href="#">&raquo; Disinfectant</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">&raquo; Antibodies &amp; ELISA</a></li>
+                <li><a href="#">&raquo; NGS (Next Gen Sequencing)</a></li>
+                <li><a href="#"> &raquo; Molecular Diagnostics</a></li>
+                <li><a href="#">&raquo; IVF (Infertility)</a></li>
+                <li><a href="#">&raquo; Plant Research</a></li>
+                <li><a href="equipment.html">&raquo; Equipments</a></li>
+                <li><a href="#">&raquo; Forensics</a></li>
+                <li class="dropdown"><a>&raquo; Bio-Process</a>
+                  <ul>
+                    <li><a href="#"> &raquo; Bioreactor</a></li>
+                    <li><a href="#"> &raquo; Bioclean</a></li>
+                    <li><a href="#"> &raquo; Ultra Water Purifier</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a>&raquo; Agriculture</a>
+                  <ul>
+                    <li><a href="#"> &raquo; Bio-Fertilizers</a></li>
+                    <li><a href="#"> &raquo; Pesticide Removal</a></li>
+                    <li><a href="#"> &raquo; Wireless Agri-Pump</a></li>
+                    <li><a href="#"> &raquo; Hi-Tech Drones</a></li>
+                    <li><a href="#"> &raquo; Soil Forecaster</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">&raquo; Nanotechnology</a></li>
+                <li><a href="#">&raquo; Food Safety</a></li>
+                <li class="dropdown"><a>&raquo; Robotics (<i>APSTRONIX</i>)</a>
+                  <ul>
+                    <li><a href="#"> &raquo; Artificial Intelligence</a></li>
+                    <li><a href="#"> &raquo; Data Logger</a></li>
+                    <li><a href="#"> &raquo; Sensor Integration</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">&raquo; Healthcare</a></li>
+              </ul>
+            </li>
+            <li><a href="portfolio.html">News &amp; Gallery</a></li>
+            <li><a href="#">Research</a> </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- end site nav -->
+      </div>
+      <!-- end header widgets -->
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</header>
+<!-- end header -->
+<!-- start main -->
+<main id="main">
+  <!-- start page title section -->
+  <section class="page-title section light">
+    <div class="container">
+      <div class="row">
+        <div class="col-9">
+          <!-- start page title -->
+          <header class="section-header content-header">
+            <h1 class="title">News &amp; Gallery</h1>
+          </header>
+          <!-- end page title -->
+          <!-- start breadcrumbs -->
+          <nav class="breadcrumbs"> <span class="label"></span> <a href="index.html">Home</a> <span class="sep">/</span> <span class="current">News &amp; Gallery</span> </nav>
+          <!-- end breadcrumbs -->
+        </div>
+        <div class="col-27"> <img src="assets/images/clipart-news.png" /> </div>
+      </div>
+    </div>
+  </section>
+  <!-- end page title section -->
+  <section id="news-slider" class="section light">
+    <!-- start container -->
+    <div class="container">
+      <!-- start section content -->
+      <div class="image-slider row">
+        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:800px;overflow:hidden;visibility:hidden;">
+          <!-- Loading Screen -->
+          <div data-u="loading" class="jssorl-009-spin" 
+                               			style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);"> <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" /> </div>
+          <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:700px;overflow:hidden;">
+            <div data-idle="10000" data-fillmode="4"> <img data-u="image" src="assets/images/gallery/Eah7Mkk.jpg" /> <img data-u="thumb" src="assets/images/gallery/Eah7Mkk-thumb.jpg" /> </div>
+            <div data-idle="10000" data-fillmode="4"> <img data-u="image" src="assets/images/gallery/f9GbToX.jpg" /> <img data-u="thumb" src="assets/images/gallery/f9GbToX-thumb.jpg" /> </div>
+            <div data-idle="10000"> <img data-u="image" src="assets/images/gallery/SqoOnDJ.jpg" /> <img data-u="thumb" src="assets/images/gallery/SqoOnDJ-thumb.jpg" /> </div>
+            <div data-idle="10000"> <img data-u="image" src="assets/images/gallery/ONeP0Kx.jpg" /> <img data-u="thumb" src="assets/images/gallery/ONeP0Kx-thumb.jpg" /> </div>
+            <div data-idle="10000"> <img data-u="image" src="assets/images/gallery/QfL4bu7.jpg" /> <img data-u="thumb" src="assets/images/gallery/QfL4bu7-thumb.jpg" /> </div>
+          </div>
+          <!-- Thumbnail Navigator -->
+          <div data-u="thumbnavigator" class="jssort101" 
+                                			style="position:absolute;left:0px;bottom:0px;width:980px;height:100px;background-color:#000;" 
+                                            data-autocenter="1" data-scale-bottom="0.75">
+            <div data-u="slides">
+              <div data-u="prototype" class="p" style="width:190px;height:90px;">
+                <div data-u="thumbnailtemplate" class="t"></div>
+                <svg viewbox="0 0 16000 16000" class="cv">
+                  <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
+                  <line class="a" x1="6190.5" y1="8000" x2="9809.5" y2="8000"></line>
+                  <line class="a" x1="8000" y1="9809.5" x2="8000" y2="6190.5"></line>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <!-- Arrow Navigator -->
+          <div data-u="arrowleft" class="jssora106" style="width:55px;height:55px;top:162px;left:30px;" data-scale="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+              <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+              <polyline class="a" points="7930.4,5495.7 5426.1,8000 7930.4,10504.3 "></polyline>
+              <line class="a" x1="10573.9" y1="8000" x2="5426.1" y2="8000"></line>
+            </svg>
+          </div>
+          <div data-u="arrowright" class="jssora106" style="width:55px;height:55px;top:162px;right:30px;" data-scale="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+              <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+              <polyline class="a" points="8069.6,5495.7 10573.9,8000 8069.6,10504.3 "></polyline>
+              <line class="a" x1="5426.1" y1="8000" x2="10573.9" y2="8000"></line>
+            </svg>
+          </div>
+        </div>
+        <script type="text/javascript">jssor_1_slider_init();</script>
+        <!-- #endregion Jssor Slider End -->
+      </div>
+      <!-- end section content -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- start main content -->
+  <section id="main-content" class="section light">
+    <!-- start container -->
+    <div class="container">
+      <!-- start section content -->
+      <div class="section-content row">
+        <!-- start primary -->
+        <div id="primary" class="col-2">
+          <!-- start filters -->
+          <nav class="project-filter nav horizontal">
+            <ul>
+              <li class="active"><a href="#" data-filter="*">All</a></li>
+              <li><a href="#" data-filter=".app">LAB WORK</a></li>
+              <li><a href="#" data-filter=".photo">BIOTECH</a></li>
+              <li><a href="#" data-filter=".web">LIFE SCIENCE</a></li>
+            </ul>
+          </nav>
+          <!-- end filters -->
+          <!-- start projects -->
+          <div class="projects row">
+            <!-- project 1 -->
+            <div class="col-27 web">
+              <article class="project">
+                <figure class="project-thumb"> <img src="assets/images/tissublood.jpg" alt="project-1">
+                  <figcaption class="middle">
+                    <div> <a href="assets/images/tissublood.jpg" class="icon circle medium lightbox"  ><i class="fa fa-search"></i></a> </div>
+                  </figcaption>
+                </figure>
+              </article>
+            </div>
+            <!-- project 2 -->
+            <div class="col-27 photo">
+              <article class="project">
+                <figure class="project-thumb"> <img src="assets/images/IMG_4091.jpg" alt="project-2">
+                  <figcaption class="middle">
+                    <div> <a href="assets/images/IMG_4091.jpg" class="icon circle medium lightbox" ><i class="fa fa-search"></i></a> </div>
+                  </figcaption>
+                </figure>
+              </article>
+            </div>
+            <!-- project 3 -->
+            <div class="col-27 app">
+              <article class="project">
+                <figure class="project-thumb"> <img src="assets/images/IMG_4130.jpg" alt="project-3">
+                  <figcaption class="middle">
+                    <div> <a href="assets/images/IMG_4130.jpg" class="icon circle medium lightbox"  ><i class="fa fa-search"></i></a> </div>
+                  </figcaption>
+                </figure>
+              </article>
+            </div>
+            <!-- project 4 -->
+            <div class="col-27 web">
+              <article class="project">
+                <figure class="project-thumb"> <img src="assets/images/IMG_4239.jpg" alt="project-4">
+                  <figcaption class="middle">
+                    <div> <a href="assets/images/IMG_4239.jpg" class="icon circle medium lightbox"  ><i class="fa fa-search"></i></a> </div>
+                  </figcaption>
+                </figure>
+              </article>
+            </div>
+            <!-- project 5 -->
+            <div class="col-27 app">
+              <article class="project">
+                <figure class="project-thumb"> <img src="assets/images/IMG_4231.jpg" alt="project-5">
+                  <figcaption class="middle">
+                    <div> <a href="assets/images/IMG_4231.jpg" class="icon circle medium lightbox"  ><i class="fa fa-search"></i></a> </div>
+                  </figcaption>
+                </figure>
+              </article>
+            </div>
+            <!-- project 6 -->
+            <!-- project 7 -->
+            <div class="col-27 web">
+              <article class="project">
+                <figure class="project-thumb"> <img src="assets/images/IMG_4237.jpg" alt="project-7">
+                  <figcaption class="middle">
+                    <div> <a href="assets/images/IMG_4237.jpg" class="icon circle medium lightbox"  ><i class="fa fa-search"></i></a> </div>
+                  </figcaption>
+                </figure>
+              </article>
+            </div>
+            <!-- project 8 -->
+            <div class="col-27 photo">
+              <article class="project">
+                <figure class="project-thumb"> <img src="assets/images/IMG_4284.jpg" alt="project-8">
+                  <figcaption class="middle">
+                    <div> <a href="assets/images/IMG_4284.jpg" class="icon circle medium lightbox"  ><i class="fa fa-search"></i></a> </div>
+                  </figcaption>
+                </figure>
+              </article>
+            </div>
+            <!-- project 9 -->
+            <!-- project 10 -->
+            <div class="col-27 photo">
+              <article class="project">
+                <figure class="project-thumb"> <img src="assets/images/IMG_4235.jpg" alt="project-10">
+                  <figcaption class="middle">
+                    <div> <a href="assets/images/IMG_4235.jpg" class="icon circle medium lightbox"  ><i class="fa fa-search"></i></a> </div>
+                  </figcaption>
+                </figure>
+              </article>
+            </div>
+            <div class="col-27 "> &nbsp; </div>
+            <!-- project 11 -->
+            <div class="col-27 web">
+              <article class="project">
+                <figure class="project-thumb"> <img src="assets/images/IMG_4142.jpg" alt="project-11">
+                  <figcaption class="middle">
+                    <div> <a href="assets/images/IMG_4142.jpg" class="icon circle medium lightbox"  ><i class="fa fa-search"></i></a> </div>
+                  </figcaption>
+                </figure>
+                <header class="project-header"> </header>
+              </article>
+            </div>
+            <!-- project 12 -->
+            <div class="col-27 app">
+              <article class="project">
+                <figure class="project-thumb"> <img src="assets/images/IMG_4184.jpg" alt="project-12">
+                  <figcaption class="middle">
+                    <div> <a href="assets/images/IMG_4184.jpg" class="icon circle medium lightbox" ><i class="fa fa-search"></i></a> </div>
+                  </figcaption>
+                </figure>
+              </article>
+            </div>
+          </div>
+          <!-- end projects -->
+        </div>
+        <!-- end primary -->
+      </div>
+      <!-- end section content -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end main content -->
+</main>
+<!-- end main -->
+<!-- start footer -->
+<footer id="site-footer">
+  <!-- start footer widgets area -->
+  <section id="footer-widgets" class="section dark">
+    <!-- start container -->
+    <div class="container">
+      <!-- start section content -->
+      <div class="section-content row">
+        <!-- start footer widget area 1 -->
+        <div class="col-18">
+          <aside class="widget">
+            <p> <img src="img/logo-light.png" alt="APS Labs"></p>
+            <address>
+            <strong style="color:#CCC">APS LABS</strong><br>
+            <span>Row House-27/B, SR no-241/2B, Jayprakash Nagar, Airport Rd,</span><br>
+            <span>Lohegaon,PUNE-411032, Maharashtra, India</span><br>
+            <abbr title="Telephone">P</abbr>: 020-26686683 | <abbr title="Email">E</abbr>: <a href="mailto:info@apslabs.in">info@apslabs.in</a>
+            </address>
+          </aside>
+        </div>
+        <!-- start footer widget area 1 -->
+        <!-- start footer widget area 2 -->
+        <div class="col-27">
+          <aside class="widget">
+            <div class="content-header widget-header v3">
+              <h4>Popular Products</h4>
+            </div>
+            <ul class="post-list">
+              <li class="clearfix">
+                <h5 class="details"><a href="#" rel="bookmark">Plasmid Miniprep Purification Kit</a></h5>
+                <h5 class="details"><a href="#" rel="bookmark">Plus Gel Elution Kit</a></h5>
+                <h5 class="details"><a href="#" rel="bookmark">Plus PCR Clean-Up Kit</a></h5>
+                <h5 class="details"><a href="#" rel="bookmark">Agarose-Hipure(LE),Low EEO</a></h5>
+                <h5 class="details"><a href="#" rel="bookmark">MAGBand 100 bp DNA Ladder</a></h5>
+                <h5 class="details"><a href="#" rel="bookmark">MAGBand 50 bp DNA Ladder</a></h5>
+              </li>
+            </ul>
+          </aside>
+        </div>
+        <!-- start footer widget area 2 -->
+        <!-- start footer widget area 4 -->
+        <div class="col-27">
+          <aside class="widget">
+            <div class="content-header widget-header v3">
+              <h4>Tags Cloud</h4>
+            </div>
+            <div class="tags clearfix"> <a href="index.html" class="button primary small">Home</a> <a href="about.html" class="button primary small">About US</a> <a href="product.html" class="button primary small">Product</a> <a href="portfolio.html" class="button primary small">Portfolio</a> <a href="#" class="button primary small">Research</a> <a href="contact.html" class="button primary small">Contact</a> <a href="download.html" class="button primary small">Downloads</a> </div>
+          </aside>
+        </div>
+        <!-- start footer widget area 4 -->
+      </div>
+      <!-- end section content -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end footer widgets area -->
+  <!-- start footer bottom -->
+  <section id="footer-bottom" class="section dark">
+    <!-- start container -->
+    <div class="container">
+      <!-- start row -->
+      <div class="row">
+        <!-- start copyright -->
+        <div class="col-18">
+          <p class="copyright"> &copy; 2019 APS LABS </p>
+        </div>
+        <!-- end copyright -->
+        <!-- start footer nav -->
+        <div class="col-18">
+          <p class="text-right"> Designed &amp; Developed by &copy;<a href="http://www.spectrumtechsystem.com/"> SPECTRUM TECH SYSTEM</a> </p>
+        </div>
+        <!-- end footer nav -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end footer bottom -->
+</footer>
+<!-- end footer -->
+<!-- place scripts at the end of body for better performance -->
+<script type="text/javascript" src="src/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="src/isotope/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="src/bxslider/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="src/hoverdir/jquery.hoverdir.min.js"></script>
+<script type="text/javascript" src="src/slicknav/jquery.slicknav.min.js"></script>
+<script type="text/javascript" src="src/appear/jquery.appear.js"></script>
+<script type="text/javascript" src="src/countup/countUp.min.js"></script>
+<script type="text/javascript" src="src/twitter/jquery.tweet.js"></script>
+<script type="text/javascript" src="src/easypiechart/jquery.easypiechart.min.js"></script>
+<script type="text/javascript" src="src/sticky/jquery.sticky.js"></script>
+<script type="text/javascript" src="src/tooltipster/jquery.tooltipster.min.js"></script>
+<script type="text/javascript" src="src/swipebox/jquery.swipebox.min.js"></script>
+<script type="text/javascript" src="js/casanova.menu.js"></script>
+<script type="text/javascript" src="js/casanova.accordion.js"></script>
+<script type="text/javascript" src="js/casanova.tabs.js"></script>
+<script type="text/javascript" src="js/casanova.fitmedia.js"></script>
+<script type="text/javascript" src="js/casanova.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+</body>
+</html>
